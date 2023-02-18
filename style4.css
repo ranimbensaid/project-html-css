@@ -1,0 +1,123 @@
+/* general info */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap'); */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+.resoudre-float {
+    overflow: hidden;
+}
+/* start header */
+header {
+    padding: 10px 0;
+    background-color: rgb(233, 233, 170);
+}
+header .logo {
+    width: 250px 0 ;
+    display: inline-block;
+    float: left;
+    padding-top: 5px;
+}
+header nav {
+    float: right;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+header nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+}
+header .networks {
+    float: right;
+    height: 40px;
+    padding-top: 8px;
+    margin-left: 20px;
+}
+header .networks a {
+    display: inline-block;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+/* end header */
+/* start section audio video */
+section.paragraphe{
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(../images/fn.png);
+    position: relative;
+}
+    
+section.paragraphe:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(255 255 255 / 10%);
+
+}
+section.paragraphe h1,section#definition h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    display: table;
+    margin: 0 auto 100px;
+    padding-bottom: 10px;
+    color: red;
+}
+.content-descri {
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+}
+p {
+    font-size: 18px;
+    line-height: 45px;
+    color: black ;
+}
+audio {
+    margin-top: 50px;
+}
+video {
+    float: right;
+    width: 50%;
+}
+a {
+    color: black;
+}
+
+/* start footer */
+footer{
+    padding: 50px 0;
+    background: #00000087;
+}
+.footer-top {
+    padding-block: initial;
+}
+p {
+    color: aqua;
+}
+/* end footer */
